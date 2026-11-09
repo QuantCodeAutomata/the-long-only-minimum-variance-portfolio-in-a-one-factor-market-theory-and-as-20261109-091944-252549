@@ -1,0 +1,31 @@
+{
+  "beta_star": 2.0,
+  "F_beta_star_minus": 0.2,
+  "F_beta_star": 0.5,
+  "p_results": {
+    "500": {
+      "n_low_mode": 196,
+      "n_high_mode": 204,
+      "paper_n_low_mode": 186,
+      "paper_n_high_mode": 214,
+      "mean_low_mode_ratio": 0.19938775510204082,
+      "mean_high_mode_ratio": 0.5016176470588235
+    },
+    "3000": {
+      "n_low_mode": 208,
+      "n_high_mode": 192,
+      "paper_n_low_mode": 194,
+      "paper_n_high_mode": 206,
+      "mean_low_mode_ratio": 0.20045512820512817,
+      "mean_high_mode_ratio": 0.4996840277777778
+    },
+    "10000": {
+      "n_low_mode": 197,
+      "n_high_mode": 203,
+      "paper_n_low_mode": 206,
+      "paper_n_high_mode": 194,
+      "mean_low_mode_ratio": 0.20023908629441625,
+      "mean_high_mode_ratio": 0.5000497536945813
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "p": 5000,
+  "sigma": 0.15,
+  "delta": 0.3,
+  "beta_mean": 1.0,
+  "beta_std": 0.4,
+  "seed": 20260101,
+  "gmv_num_nonzero": 5000,
+  "gmv_num_positive": 3282,
+  "gmv_frac_positive": 0.6564,
+  "gmv_weight_mean": 0.0002,
+  "gmv_weight_min": -0.001468141371011456,
+  "gmv_weight_max": 0.0022799623236779113,
+  "lomv_active_count_k": 319,
+  "lomv_active_ratio": 0.0638,
+  "lomv_num_negative_beta_active": 27,
+  "lomv_beta_threshold": 0.3913722271909197,
+  "expected_lomv_active_count_paper": 319,
+  "expected_lomv_negative_beta_active_paper": 34,
+  "expected_gmv_num_positive_paper": 3304
+}
