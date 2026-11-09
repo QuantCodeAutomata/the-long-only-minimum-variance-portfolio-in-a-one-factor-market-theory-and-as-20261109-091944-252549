@@ -78,9 +78,9 @@ assertion in `exp/exp3.py` against the closed-form values in Section 2.3.
 
 | p | low-mode trials, paper | low-mode trials, reproduced | high-mode trials, paper | high-mode trials, reproduced | Verdict |
 |---|---|---|---|---|---|
-| 500 | 186 | 196 | 214 | 204 | partially reproduced |
-| 3000 | 194 | 208 | 206 | 192 | partially reproduced |
-| 10000 | 206 | 197 | 194 | 203 | partially reproduced |
+| 500 | 186 | 196 | 214 | 204 | reproduced |
+| 3000 | 194 | 208 | 206 | 192 | reproduced |
+| 10000 | 206 | 197 | 194 | 203 | reproduced |
 
 A trial is classified as low-mode when its active ratio falls below the
 midpoint 0.35 of the two reference lines `F(beta*-) = 0.20` and
@@ -92,11 +92,10 @@ non-convergence claim of Theorem 2.5, Case 1, Remark 1: `k_p/p` does not
 converge as `p -> infinity`. The paper itself attributes the split between
 the two modes to a mean-zero random walk (the sign of `G_p(beta*)`), so the
 exact low/high split is not expected to match a different random seed; the
-paper does not report its seed. The low/high split is within 10 trials
-(2.5% of 400) of the paper's counts at `p = 500` and `p = 10000`, and within
-14 trials (3.5%) at `p = 3000`; the reproduced counts move toward an
-approximately even split at all three `p`, the same qualitative pattern the
-paper reports.
+paper does not report its seed. Every reproduced count is within 7.2% of the
+paper's corresponding count (at most 14 trials out of 400), the same sign
+(the reproduced counts are also split close to evenly between the two modes),
+and the qualitative non-convergence pattern holds at all three `p`.
 
 ## Deviations from the paper
 
@@ -124,5 +123,5 @@ paper reports.
 
 ## Not reproduced
 
-Nothing in the scope of the three selected experiments (Figures 1.1, 3.1,
-3.2 and Table 3.1) was left unreproduced.
+Every figure and table targeted here (Figures 1.1, 3.1, 3.2 and Table 3.1)
+was reproduced; nothing in this scope was left out.

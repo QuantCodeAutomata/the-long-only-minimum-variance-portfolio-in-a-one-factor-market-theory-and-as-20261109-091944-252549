@@ -55,8 +55,8 @@ def run(full: bool = True) -> dict:
 
     `full` selects the paper's configuration (p in {500, 3000, 10000}, 400
     trials); the one-factor active-set algorithm is O(p log p) per trial, so
-    this configuration runs in well under the available time budget and is
-    always the one executed (no reduction is needed for this experiment).
+    this configuration runs quickly and is always the one executed (no
+    reduction is needed for this experiment).
     """
     rng = np.random.default_rng(config.EXP2_SEED)
     mu, std = config.EXP2_BETA_MEAN, config.EXP2_BETA_STD
